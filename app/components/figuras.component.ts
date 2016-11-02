@@ -22,8 +22,9 @@ public areaR:number;
   constructor(private _servicio: CalculoServicio){
   	 this.radio=44;
      this.areaCirculo();
-     this.base=100;
-     this.altura=50;
+     this.base=10;
+     this.altura=10;
+     this.areaRectangulo();
 
   }
 
@@ -33,6 +34,7 @@ public areaCirculo(){
 
 public areaRectangulo(){
 	this.areaR=this._servicio.getAreaRectangulo(this.base,this.altura);
+
 }
 
 

@@ -6,14 +6,14 @@ var Servicio = (function () {
         this.circulo = new circulo_1.Circulo();
         this.rectangulo = new rectangulo_1.Rectangulo();
     }
-    Servicio.prototype.getAreaCirculo = function (radio) {
-        this.circulo.radio = radio;
-        return this.circulo.area();
-    };
     Servicio.prototype.getAreaRectangulo = function (base, altura) {
         this.rectangulo.base = base;
         this.rectangulo.altura = altura;
         return this.rectangulo.area();
+    };
+    Servicio.prototype.getAreaCirculo = function (radio) {
+        this.circulo.radio = radio;
+        return this.circulo.area();
     };
     return Servicio;
 }());

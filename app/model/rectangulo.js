@@ -22,16 +22,16 @@ var Rectangulo = (function (_super) {
     });
     Object.defineProperty(Rectangulo.prototype, "altura", {
         get: function () {
-            return this._base;
+            return this._altura;
         },
-        set: function (base) {
-            this._base = base;
+        set: function (altura) {
+            this._altura = altura;
         },
         enumerable: true,
         configurable: true
     });
     Rectangulo.prototype.area = function () {
-        return this.base * this._altura;
+        return (this._base * this._altura);
     };
     return Rectangulo;
 }(figura_1.Figura));

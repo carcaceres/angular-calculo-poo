@@ -15,8 +15,9 @@ var FigurasComponent = (function () {
         this._servicio = _servicio;
         this.radio = 44;
         this.areaCirculo();
-        this.base = 100;
-        this.altura = 50;
+        this.base = 10;
+        this.altura = 10;
+        this.areaRectangulo();
     }
     FigurasComponent.prototype.areaCirculo = function () {
         this.areaC = this._servicio.getAreaCirculo(this.radio);

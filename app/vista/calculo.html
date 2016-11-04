@@ -1,12 +1,9 @@
 
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
-<div class="container">
-  <div class="panel panel-info">
+
+<div class="container" >
+  <div class="panel panel-info  sombra">
     <div class="panel-heading">Calculo de Areas</div>
     <div class="panel-body">
     	
@@ -25,6 +22,21 @@ Altura:{{altura}}
 <br/>
 Area del Rectangulo:{{areaR}}
 </fieldset>
+<br/>
+<legend>Entrada de Datos</legend>
+<label>radio Circulo</label>
+<input type="text" name="area" class="form-control" [(ngModel)]="radio">
+<label>Base Rectangulo</label>
+<input type="text" name="base" class="form-control" [(ngModel)]="base">
+<label>Altura Rectangulo</label>
+<input type="text" name="altura" class="form-control" [(ngModel)]="altura">
+<br/>
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4"><button class="btn btn-info" (click)="areaCirculo()">Area Circulo</button>
+  <button class="btn btn-warning" (click)="areaRectangulo()">Area Rectangulo</button></div>
+  <div class="col-md-4"></div>
+</div>
 
     </div>
    </div>

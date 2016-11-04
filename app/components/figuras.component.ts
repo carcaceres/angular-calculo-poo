@@ -7,7 +7,8 @@ import {CalculoServicio} from '../servicio/calculo.service';
 @Component({
     selector: 'figura-componente',
     templateUrl: "app/vista/calculo.html",
-    providers:[CalculoServicio]
+    providers:[CalculoServicio],
+    styleUrls:['./assets/css/style.css']
     
 
 })

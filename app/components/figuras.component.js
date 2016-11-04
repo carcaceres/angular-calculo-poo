@@ -29,7 +29,8 @@ var FigurasComponent = (function () {
         core_1.Component({
             selector: 'figura-componente',
             templateUrl: "app/vista/calculo.html",
-            providers: [calculo_service_1.CalculoServicio]
+            providers: [calculo_service_1.CalculoServicio],
+            styleUrls: ['./assets/css/style.css']
         }), 
         __metadata('design:paramtypes', [calculo_service_1.CalculoServicio])
     ], FigurasComponent);
